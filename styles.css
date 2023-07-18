@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("images/bg.jpg");
+}
+ul{
+        margin-left: 31.5vw;
+    
+}
+
+li{
+    margin: 0px 1vw;
+}
+
+
+
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
+
+body {
+  font-family: Lato, sans-serif;
+}
+
+footer {
+  width:100vw;
+  max-height: 35vh;
+  position:fixed;
+  bottom:0px
+}
+footer div {
+  background-color:white;
+  margin: -5px 0px 0px 0px;
+  padding:0px;
+  color: white;
+  text-align:center;
+}
+svg {
+  width:100%;
+}
+
+
+
+.wave {
+  animation: wave 3s linear;
+  animation-iteration-count:infinite;
+  fill: white;
+}
+
+.gooeff {
+  	filter: url(#goo);
+}
+
+
+
+
+
+
+
